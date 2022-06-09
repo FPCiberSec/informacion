@@ -55,7 +55,7 @@ Infoooooo y enlace al git
 
 ## Profesorado
 
-[David Romero Santos](mailto:dromsan617@g.educaand.es)
+[David Romero Santos](https://github.com/DavidLMS)
 
 [Alejandro Carmona Martos](mailto:acarmar112@g.educaand.es) 
 
