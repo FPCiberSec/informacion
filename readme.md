@@ -111,4 +111,4 @@ NC: Normativa de ciberseguridad.
 
 [IPasen](https://iesrafaelalberti.es/ayuda-ipasen/)
 
-[Admisión y Matrículación](https://iesrafaelalberti.es/matriculacion/)
+[Admisión y Matrículación](https://iesrafaelalberti.es/matriculacion-2223/)
