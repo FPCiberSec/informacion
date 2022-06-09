@@ -55,13 +55,13 @@ Infoooooo y enlace al git
 
 ## Profesorado
 
-[David Romero Santos](https://github.com/DavidLMS)
-
 [Alejandro Carmona Martos](mailto:acarmar112@g.educaand.es) 
 
 [Eduardo Fernández Oliver](mailto:eferoli398@g.educaand.es)
 
 [Manuel Jesús Rivas Sández](mailto:mrivsan736@g.educaand.es) 
+
+[David Romero Santos](https://github.com/DavidLMS)
 
 
 ## Horario 
@@ -94,6 +94,9 @@ NC: Normativa de ciberseguridad.
 (curso 21/22)
 
 [Calendario del curso escolar 2021/2022 (Cádiz)](https://www.juntadeandalucia.es/educacion/portals/delegate/content/8ccfcf96-2dba-4325-98a6-8986e5b172a9/CALENDARIO%20ESCOLAR%202021_2022)
+
+(curso 22/23)
+[Calendario del curso escolar 2022/2023 (Cádiz)](https://www.juntadeandalucia.es/educacion/portals/delegate/content/5a42e96e-b4c6-4e05-ac3a-df8de6681810/CALENDARIO%20ESCOLAR%202022_2023)
 
 
 ## Localización
