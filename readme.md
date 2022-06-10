@@ -36,10 +36,6 @@ La ciberseguridad es una necesidad esencial para una sociedad moderna en la que 
 
 El objetivo de este curso de especialización es proporcionar al alumnado conocimientos técnicos expertos esenciales, competencia y habilidades de investigación de los conceptos técnicos más importantes de la ciberseguridad y cómo se aplican en áreas emergentes de dicha especialidad.
 
-[Presentación del curso de especialización en ciberseguridad TIC](https://drive.google.com/file/d/1u34BSnn33MyEXSi0ZGEShoT5_KCwhh63/view?usp=sharing
-)
-
-
 <details>
   <summary>Acerca del curso</summary>
 
@@ -80,6 +76,9 @@ El objetivo de este curso de especialización es proporcionar al alumnado conoci
 
   720 horas (24 semanas)
 </details>
+
+[Presentación del curso de especialización en ciberseguridad TIC](https://drive.google.com/file/d/1u34BSnn33MyEXSi0ZGEShoT5_KCwhh63/view?usp=sharing
+)
 
 
 ## Programa de becas
