@@ -110,18 +110,11 @@ Con dicha metodología buscamos mejorar:
 
 ## Profesorado
 
-<<<<<<< Updated upstream
-[Alejandro Carmona Martos](mailto:acarmar112@g.educaand.es) 
+[Alejandro Carmona Martos](https://github.com/alejandro-alberti) 
 
-=======
-[David Romero Santos](mailto:dromsan617@g.educaand.es)
+[Eduardo Fernández Oliver](https://github.com/revilofe)
 
-[Alejandro Carmona Martos](mailto:acarmar112@g.educaand.es) 
-
->>>>>>> Stashed changes
-[Eduardo Fernández Oliver](mailto:eferoli398@g.educaand.es)
-
-[Manuel Jesús Rivas Sández](mailto:mrivsan736@g.educaand.es) 
+[Manuel Jesús Rivas Sández](https://github.com/0xmrivas) 
 
 [David Romero Santos](https://github.com/DavidLMS)
 
