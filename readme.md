@@ -73,12 +73,12 @@ El objetivo de este curso de especialización es proporcionar al alumnado conoci
   * Título de Técnico Superior en Desarrollo de Aplicaciones Web.
   * Título de Técnico Superior en Sistemas de Telecomunicaciones e Informáticos.
   * Título de Técnico Superior en Mantenimiento Electrónico.
-</details>Presentación_curso
+</details>
 
 <details>
   <summary>Duración</summary>
 
-  Duración: 720 horas.
+  720 horas (24 semanas)
 </details>
 
 
