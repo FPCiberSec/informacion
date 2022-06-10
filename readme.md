@@ -94,18 +94,19 @@ Infoooooo
 (Poner el enlace al git de cada módulo o git + moodle)
 
 
-## Proyecto intermodular
-Para maximizar los beneficios del curso aplicamos un aprendizaje basado en proyectos.
+## Proyectos intermodulares
+La seguridad informática es un campo en el que los profesionales deben desarrollar y actualizar continuamente sus conocimientos de acuerdo con los rápidos avances tecnológicos, consideramos, por tanto esencial, preparar a nuestro alumnado para satisfacer las necesidades actuales y futuras en ciberseguridad. 
 
-Con dicha metodología buscamos mejorar:
+Uno de los principales retos del ámbito de la ciberseguridad es su naturaleza interdisciplinaria, en la vida real es casi imposible mitigar las amenazas y defenderse de los ataques sin reunir equipos cualificados con habilidades en diferentes disciplinas. Es por ello que en nuestro curso de especialización presentamos un programa interdisciplinario para proporcionar a los estudiantes habilidades y conocimientos sólidos en diferentes áreas. 
 
-* Habilidad para manejar los plazos y la presión. 
-* El desarrollo de las habilidades de colaboración.
-* Reforzar las habilidades de investigación.
-* Gestión de proyectos.
-* Mejorar su confianza para explorar y trabajar en el “mundo de la cibereguridad.
+ A su vez pretemdemos:
+ * Reducir la 'sobrecarga de información' y evitar que los estudiantes aprendan grandes cantidades de detalles teóricos innecesarios.
+ * Abordar la debilidad percibida en los métodos de enseñanza 'didácticos' tradicionales.
+ * Mejorar el control de los estudiantes sobre su aprendizaje al brindarles más oportunidades de ser autodidactas.
+ * Mejorar las habilidades interpersonales del alumnado.
+ * Mejorar su confianza para explorar y trabajar en el “mundo de la cibereguridad.
 
-[Enlace al repositorio del proyecto intermodular](https://github.com/IES-Rafael-Alberti/ciber-proyectos-intermodulares)
+[Enlace al repositorio de los proyectos intermodulares](https://github.com/IES-Rafael-Alberti/ciber-proyectos-intermodulares)
 
 
 ## Profesorado
