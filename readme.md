@@ -36,7 +36,9 @@ La ciberseguridad es una necesidad esencial para una sociedad moderna en la que 
 
 El objetivo de este curso de especialización es proporcionar al alumnado conocimientos técnicos expertos esenciales, competencia y habilidades de investigación de los conceptos técnicos más importantes de la ciberseguridad y cómo se aplican en áreas emergentes de dicha especialidad.
 
-[Presentación del curso de especialización en ciberseguridad TIC](Presentación_curso.pdf)
+[Presentación del curso de especialización en ciberseguridad TIC](https://drive.google.com/file/d/1u34BSnn33MyEXSi0ZGEShoT5_KCwhh63/view?usp=sharing
+)
+
 
 <details>
   <summary>Acerca del curso</summary>
@@ -71,7 +73,7 @@ El objetivo de este curso de especialización es proporcionar al alumnado conoci
   * Título de Técnico Superior en Desarrollo de Aplicaciones Web.
   * Título de Técnico Superior en Sistemas de Telecomunicaciones e Informáticos.
   * Título de Técnico Superior en Mantenimiento Electrónico.
-</details>
+</details>Presentación_curso
 
 <details>
   <summary>Duración</summary>
@@ -90,7 +92,6 @@ Infoooooo
 * [Análisis forense informático]()
 * [Hacking ético]()
 * [Normativa de ciberseguridad]()
-
 (Poner el enlace al git de cada módulo o git + moodle)
 
 
