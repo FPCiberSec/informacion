@@ -99,7 +99,7 @@ La seguridad informática es un campo en el que los profesionales deben desarrol
 
 Uno de los principales retos del ámbito de la ciberseguridad es su naturaleza interdisciplinaria, en la vida real es casi imposible mitigar las amenazas y defenderse de los ataques sin reunir equipos cualificados con habilidades en diferentes disciplinas. Es por ello que en nuestro curso de especialización presentamos un programa interdisciplinario para proporcionar a los estudiantes habilidades y conocimientos sólidos en diferentes áreas. 
 
- A su vez pretemdemos:
+ A su vez pretendemos:
  * Reducir la 'sobrecarga de información' y evitar que los estudiantes aprendan grandes cantidades de detalles teóricos innecesarios.
  * Abordar la debilidad percibida en los métodos de enseñanza 'didácticos' tradicionales.
  * Mejorar el control de los estudiantes sobre su aprendizaje al brindarles más oportunidades de ser autodidactas.
