@@ -32,7 +32,52 @@ En los últimos años [estudiantes del IES Rafael Alberti han formado parte de l
 
 
 ## Presentación del curso
-Infoooooo
+La ciberseguridad es una necesidad esencial para una sociedad moderna en la que la tecnología y los servicios de información impregnan todos los aspectos de nuestras vidas. La ciberseguridad tiene la tasa de crecimiento más rápida entre todas las áreas de TI, y el mercado laboral enfrenta una grave escasez de mano de obra en este campo.
+
+El objetivo de este curso de especialización es proporcionar al alumnado conocimientos técnicos expertos esenciales, competencia y habilidades de investigación de los conceptos técnicos más importantes de la ciberseguridad y cómo se aplican en áreas emergentes de dicha especialidad.
+
+[Descargar la presentación del curso de especializaciñon en ciberseguridad TIC]()
+
+<details>
+  <summary>Acerca del curso</summary>
+
+  El curso es de naturaleza técnica y práctica, está integrado de manera única en la industria y se desarrolla en temas técnicos centrales dentro del área de ciberseguridad, como seguridad de la información, programación segura, seguridad de sistemas y redes, pruebas de penetración, legislación aplicable al ámbito de la ciberseguridad, la detección y gestión de incidentes, así como también en el análisis forense.
+</details>
+
+<details>
+  <summary>¿Cuáles son las salidas profesionales?</summary>
+
+  Este campo tiene la tasa de crecimiento más rápida en comparación con el resto de trabajos de tecnología. Teniendo en cuenta la gran demanda de diversos tipos de trabajos en el dominio de la seguridad informática que existen actualmente en el mercado, los titulados ​​de este curso pueden desempeñar los siguientes roles: 
+  * Experto/a en ciberseguridad.
+  * Auditor/a de ciberseguridad.
+  * Consultor/a de ciberseguridad.
+  * Hacker ético.
+  * Analista Forense
+</details>
+
+<details>
+  <summary>¿Para quién es el curso?</summary>
+
+  Este curso es ideal para personas que deseen desarrollar una carrera como profesional de ciberseguridad; asumir un papel técnico o de gestión de liderazgo; para progresar más rápido en su empleo o para aplicar el conocimiento en su función actual.
+</details>
+
+<details>
+  <summary>Requisitos de entrada</summary>
+
+  Los títulos que dan acceso a este curso de especialización son los siguientes:
+
+  * Título de Técnico Superior en Administración de Sistemas Informáticos en Red.
+  * Título de Técnico Superior en Desarrollo de Aplicaciones Multiplataforma.
+  * Título de Técnico Superior en Desarrollo de Aplicaciones Web.
+  * Título de Técnico Superior en Sistemas de Telecomunicaciones e Informáticos.
+  * Título de Técnico Superior en Mantenimiento Electrónico.
+</details>
+
+<details>
+  <summary>Duración</summary>
+
+  Duración: 720 horas.
+</details>
 
 
 ## Programa de becas
@@ -50,13 +95,30 @@ Infoooooo
 
 
 ## Proyecto intermodular
-Infoooooo y enlace al git
+Para maximizar los beneficios del curso aplicamos un aprendizaje basado en proyectos.
+
+Con dicha metodología buscamos mejorar:
+
+* Habilidad para manejar los plazos y la presión. 
+* El desarrollo de las habilidades de colaboración.
+* Reforzar las habilidades de investigación.
+* Gestión de proyectos.
+* Mejorar su confianza para explorar y trabajar en el “mundo de la cibereguridad.
+
+[Enlace al repositorio del proyecto intermodular](https://github.com/IES-Rafael-Alberti/ciber-proyectos-intermodulares)
 
 
 ## Profesorado
 
+<<<<<<< Updated upstream
 [Alejandro Carmona Martos](mailto:acarmar112@g.educaand.es) 
 
+=======
+[David Romero Santos](mailto:dromsan617@g.educaand.es)
+
+[Alejandro Carmona Martos](mailto:acarmar112@g.educaand.es) 
+
+>>>>>>> Stashed changes
 [Eduardo Fernández Oliver](mailto:eferoli398@g.educaand.es)
 
 [Manuel Jesús Rivas Sández](mailto:mrivsan736@g.educaand.es) 
