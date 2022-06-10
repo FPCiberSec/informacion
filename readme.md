@@ -36,7 +36,7 @@ La ciberseguridad es una necesidad esencial para una sociedad moderna en la que 
 
 El objetivo de este curso de especialización es proporcionar al alumnado conocimientos técnicos expertos esenciales, competencia y habilidades de investigación de los conceptos técnicos más importantes de la ciberseguridad y cómo se aplican en áreas emergentes de dicha especialidad.
 
-[Descargar la presentación del curso de especializaciñon en ciberseguridad TIC]()
+[Descargar la presentación del curso de especialización en ciberseguridad TIC]()
 
 <details>
   <summary>Acerca del curso</summary>
