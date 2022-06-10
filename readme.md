@@ -32,20 +32,20 @@ En los últimos años [estudiantes del IES Rafael Alberti han formado parte de l
 
 
 ## Presentación del curso
-La ciberseguridad es una necesidad esencial para una sociedad moderna en la que la tecnología y los servicios de información impregnan todos los aspectos de nuestras vidas. La ciberseguridad tiene la tasa de crecimiento más rápida entre todas las áreas de TI, y el mercado laboral enfrenta una grave escasez de mano de obra en este campo.
+La ciberseguridad es una necesidad esencial para una sociedad en la que la tecnología y los servicios de información impregnan todos los aspectos de nuestras vidas. Asegurar nuestros sistemas digitales y de control de infraestructuras es actualmente una demanda crucial en un mundo hiperconectado caracterizado por continuos ataques de ciberseguridad. 
 
-El objetivo de este curso de especialización es proporcionar al alumnado conocimientos técnicos expertos esenciales, competencia y habilidades de investigación de los conceptos técnicos más importantes de la ciberseguridad y cómo se aplican en áreas emergentes de dicha especialidad.
+La ciberseguridad tiene la tasa de crecimiento más rápida entre todas las áreas de TI, es por ello que el mercado laboral enfrenta una grave escasez de mano de obra en dicho área. El objetivo de este curso de especialización es proporcionar al alumnado conocimientos técnicos esenciales, así como competencias y habilidades de investigación en el área de la ciberseguridad.
 
 <details>
   <summary>Acerca del curso</summary>
 
-  El curso es de naturaleza técnica y práctica, está integrado de manera única en la industria y se desarrolla en temas técnicos centrales dentro del área de ciberseguridad, como seguridad de la información, programación segura, seguridad de sistemas y redes, pruebas de penetración, legislación aplicable al ámbito de la ciberseguridad, la detección y gestión de incidentes, así como también en el análisis forense.
-</details>
+  El curso es de naturaleza técnica y práctica, está integrado de manera única en la industria y se desarrolla en temas técnicos centrales dentro del área de ciberseguridad, como la seguridad de sistemas y redes, pruebas de penetración, programación segura, detección y gestión de incidentes, y análisis forense.
+</details></details>
 
 <details>
   <summary>¿Cuáles son las salidas profesionales?</summary>
 
-  Este campo tiene la tasa de crecimiento más rápida en comparación con el resto de trabajos de tecnología. Teniendo en cuenta la gran demanda de diversos tipos de trabajos en el dominio de la seguridad informática que existen actualmente en el mercado, los titulados ​​de este curso pueden desempeñar los siguientes roles: 
+  Este campo tiene la tasa de crecimiento más rápida dentro del sector de las tecnologías de la información. Teniendo en cuenta la gran demanda de diversos tipos de roles en el dominio de la seguridad informática, los titulados de este curso pueden desempeñar los siguientes roles: 
   * Experto/a en ciberseguridad.
   * Auditor/a de ciberseguridad.
   * Consultor/a de ciberseguridad.
@@ -56,7 +56,7 @@ El objetivo de este curso de especialización es proporcionar al alumnado conoci
 <details>
   <summary>¿Para quién es el curso?</summary>
 
-  Este curso es ideal para personas que deseen desarrollar una carrera como profesional de ciberseguridad; asumir un papel técnico o de gestión de liderazgo; para progresar más rápido en su empleo o para aplicar el conocimiento en su función actual.
+  Este curso es ideal para personas que deseen desarrollar una carrera como profesional de ciberseguridad; asumir un papel técnico o de gestión; para progresar más rápido en su empleo o para aplicar el conocimiento en su función actual.
 </details>
 
 <details>
@@ -95,7 +95,7 @@ Infoooooo
 
 
 ## Proyectos intermodulares
-La seguridad informática es un campo en el que los profesionales deben desarrollar y actualizar continuamente sus conocimientos de acuerdo con los rápidos avances tecnológicos, consideramos, por tanto esencial, preparar a nuestro alumnado para satisfacer las necesidades actuales y futuras en ciberseguridad. 
+La seguridad informática es un campo en el que los profesionales deben desarrollar y actualizar continuamente sus conocimientos en consonancia con los rápidos avances tecnológicos, consideramos, por tanto esencial, preparar a nuestro alumnado para satisfacer las necesidades actuales y futuras en ciberseguridad. 
 
 Uno de los principales retos del ámbito de la ciberseguridad es su naturaleza interdisciplinaria, en la vida real es casi imposible mitigar las amenazas y defenderse de los ataques sin reunir equipos cualificados con habilidades en diferentes disciplinas. Es por ello que en nuestro curso de especialización presentamos un programa interdisciplinario para proporcionar a los estudiantes habilidades y conocimientos sólidos en diferentes áreas. 
 
