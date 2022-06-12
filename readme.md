@@ -109,7 +109,7 @@ Uno de los principales retos del ámbito de la ciberseguridad es su naturaleza i
  * Abordar la debilidad percibida en los métodos de enseñanza 'didácticos' tradicionales.
  * Mejorar el control de los estudiantes sobre su aprendizaje al brindarles más oportunidades de ser autodidactas.
  * Mejorar las habilidades interpersonales del alumnado.
- * Mejorar su confianza para explorar y trabajar en el "mundo de la cibereguridad".
+ * Mejorar su confianza para explorar y trabajar en el "mundo de la ciberseguridad".
 
 
 ## Profesorado
