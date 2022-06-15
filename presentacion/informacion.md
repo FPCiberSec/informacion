@@ -140,31 +140,41 @@ Informática y Comunicaciones
 
 ## Docencia online
 
-[https://educacionadistancia.juntadeandalucia.es/centros/cadiz/](https://educacionadistancia.juntadeandalucia.es/centros/cadiz/)
+[![](assets/logo-moodle-centros.jpeg)](https://educacionadistancia.juntadeandalucia.es/centros/cadiz/)
 
 ---
 
 ## De forma presencial
 
+![](assets/aula-ciber.png)
+
 ---
 
 ## ¿Qué material necesito?
 
-- Materiales proporcionados por el equipo educativo
-
-- Do your own research!
-
-- Portátil propio
-
+<div class="r-hstack" style="margin: 1em">
+<div class="r-vstack" style="margin: 1em">
+					    <ul style="margin: 0.5em">Materiales proporcionados por el equipo educativo </ul>
+					     <ul style="margin: 0.5em">Do your own research!</ul>
+               <ul style="margin: 0.5em">Portátil propio</ul>
+               </div>
+					    <img class="r-hstack" src="/assets/hacked.jpeg">
+</div>
 ---
+
+<!-- .slide: data-background-image="assets/alumnado.jpg" data-background-opacity="0.6"-->
 
 ## Pregunta al alumnado
 
 ---
 
+<!-- .slide: data-background-video="assets/searching.mp4" data-background-opacity="0.6" data-background-video-loop data-background-video-muted-->
+
 ## Dudas
 
 ---
+
+<!-- .slide: data-background-image="assets/happy-hacking.jpg" data-background-opacity="0.6"-->
 
 ## Bienvenidos y...
 
