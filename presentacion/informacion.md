@@ -44,6 +44,7 @@ Mejor iniciativa en materia de ciberseguridad implantada en centros educativos
 
 ## Desarrollo del currículo
 
+![](assets/curriculo.jpg)
 
 ## Currículo Curso de Especialización en Ciberseguridad
 
@@ -64,16 +65,15 @@ Informática y Comunicaciones
 
 ## ¿A quién va dirigido?
 
+![](assets/destinatarios.jpg)
 
-## Titulaciones que dan acceso
+## Titulaciones más relacionadas
 
-- 
+- CFGS Desarrollo de aplicaciones Web
 
-- 
+- CFGS Desarrollo de aplicaciones multiplataforma
 
-- 
-
-- 
+- CFGS Administración de sistemas informáticos en red
 
 ---
 
@@ -88,12 +88,26 @@ Informática y Comunicaciones
 
 ## Existen dos tipos de personas
 
+
+## La que ha sido hackeada
+
+![](assets/problema.jpg)
+
+
+## La que no sabe que ha sido hackeada
+
+[![](assets/chema.jpg)](https://commons.wikimedia.org/wiki/File:Chema_Alonso.jpg)
+
 ---
 
 ## No existe la seguridad total...
 
+![](assets/seguridad-total.jpg)
 
-## Sino una seguridad gestionada
+
+## ...sino una seguridad gestionada
+
+![](assets/seguridad-gestionada.jpg)
 
 ---
 
@@ -102,20 +116,32 @@ Informática y Comunicaciones
 
 ## Bastionado de Redes y Sistemas
 
+![](assets/bastionado.jpg)
+
 
 ## Puesta en Producción Segura
+
+![](assets/puesta-produccion.jpg)
 
 
 ## Hacking Ético
 
+![](assets/hacking.jpg)
+
 
 ## Análisis Forense
+
+![](assets/forense.jpg)
 
 
 ## Incidentes de Ciberseguridad
 
+![](assets/incidentes.jpg)
+
 
 ## Normativa de Ciberseguridad
+
+![](assets/normativa.jpg)
 
 
 ## Distribución horaria
@@ -133,8 +159,17 @@ Informática y Comunicaciones
 
 ## Proyectos intermodulares
 
+Todo tiene sentido en conjunto
+
+Acercamiento a la realidad
+
 
 ## Contacto directo con la empresa
+
+Mentorías y orientación
+
+Posibilidad de becas
+
 
 ---
 
