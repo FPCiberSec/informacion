@@ -31,12 +31,20 @@ Mejor iniciativa en materia de ciberseguridad implantada en centros educativos
 ---
 
 ## Papel de los centros en la FP
+
+<div class="r-stack">
+<img src="assets/trabajando.jpg">
+<img class="fragment" src="assets/logo-iesra.png">					    
+</div>
+
 ---
 
 ## ¿Qué necesita la empresa?
 
 
-## Seguridad
+## 
+
+<!-- .slide: data-background-image="assets/seguridad.jpg" data-background-opacity="1"-->
 
 
 ## ¿Cómo se combate la inseguridad?
@@ -45,6 +53,7 @@ Mejor iniciativa en materia de ciberseguridad implantada en centros educativos
 ## Desarrollo del currículo
 
 ![](assets/curriculo.jpg)
+
 
 ## Currículo Curso de Especialización en Ciberseguridad
 
@@ -66,6 +75,7 @@ Informática y Comunicaciones
 ## ¿A quién va dirigido?
 
 ![](assets/destinatarios.jpg)
+
 
 ## Titulaciones más relacionadas
 
