@@ -77,8 +77,7 @@ La ciberseguridad tiene la tasa de crecimiento más rápida entre todas las áre
   720 horas (24 semanas)
 </details>
 
-[Presentación del curso de especialización en ciberseguridad TIC](https://drive.google.com/file/d/1u34BSnn33MyEXSi0ZGEShoT5_KCwhh63/view?usp=sharing
-)
+[Presentación del curso de especialización en ciberseguridad TIC](https://fpcibersec.github.io/informacion/presentacion/)
 
 
 ## Programa de becas
