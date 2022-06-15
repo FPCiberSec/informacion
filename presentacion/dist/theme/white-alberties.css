@@ -8,26 +8,27 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
   color: #fff;
 }
 @font-face {
-  font-family: 'Norwester';
-  src: url('./fonts/norwester/norwester-accented.otf');
-  src: url('./fonts/norwester/webfonts/norwester.eot?#iefix') format('embedded-opentype'),
-         url('./fonts/norwester/webfonts/norwester.woff') format('woff'),
-         url('./fonts/norwester/webfonts/norwester.ttf') format('truetype');
+  font-family: 'Gaz Rg';
+  src: url('./fonts/gaz/GazRg-Regular.eot');
+  src: local('GazRg-Regular'),
+      url('./fonts/gaz/GazRg-Regular.eot?#iefix') format('embedded-opentype'),
+      url('./fonts/gaz/GazRg-Regular.woff2') format('woff2'),
+      url('./fonts/gaz/GazRg-Regular.woff') format('woff'),
+      url('./fonts/gaz/GazRg-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
-
 /*********************************************
  * GLOBAL STYLES
  *********************************************/
 :root {
   --r-background-color: #fff;
-  --r-main-font: Norwester, Source Sans Pro, Helvetica, sans-serif;
+  --r-main-font: Source Sans Pro, Helvetica, sans-serif;
   --r-main-font-size: 42px;
-  --r-main-color: #222;
+  --r-main-color: rgb(55, 55, 55);
   --r-block-margin: 20px;
   --r-heading-margin: 0 0 20px 0;
-  --r-heading-font: Norwester, Source Sans Pro, Helvetica, sans-serif;
+  --r-heading-font: 'Gaz Rg', Source Sans Pro, Helvetica, sans-serif;
   --r-heading-color: #222;
   --r-heading-line-height: 1.2;
   --r-heading-letter-spacing: normal;
@@ -95,6 +96,11 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
   text-transform: var(--r-heading-text-transform);
   text-shadow: var(--r-heading-text-shadow);
   word-wrap: break-word;
+  background: -webkit-linear-gradient(left top, #E33457, #033EB0);
+  background: linear-gradient(to bottom right, #E33457, #033EB0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: background ease 5s;
 }
 
 .reveal h1 {
@@ -156,10 +162,11 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
 .reveal dl,
 .reveal ul {
   display: inline-block;
-  text-align: left;
+  text-align: center;
   margin: 0 0 0 1em;
+  list-style: none;
 }
-
+/*
 .reveal ol {
   list-style-type: decimal;
 }
@@ -175,7 +182,7 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
 .reveal ul ul ul {
   list-style-type: circle;
 }
-
+*/
 .reveal ul ul,
 .reveal ul ol,
 .reveal ol ol,
@@ -262,6 +269,7 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
   text-align: left;
   padding: 0.2em 0.5em 0.2em 0.5em;
   border-bottom: 1px solid;
+  font-size: 4vh;
 }
 
 .reveal table th[align=center],

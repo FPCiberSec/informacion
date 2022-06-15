@@ -1,8 +1,7 @@
-<h2 class="r-fit-text"> Curso de Especialización en </h2>
-<h2 class="r-fit-text">Ciberseguridad en Entornos de las TIC</h2>
+<h2 class="r-fit-text" style="text-align: center"> Curso de Especialización en </h2>
+<h2 class="r-fit-text" style="text-align: center">Ciberseguridad en Entornos de las TIC</h2>
 
-<img src="assets/logo-iesra.png">
-<img class="r-stretch" src="assets/logo-alberties.svg">
+<img class="r-stretch" style="text-align: center" src="assets/logos-combinados.png">
 
 ---
 
@@ -121,53 +120,6 @@ Informática y Comunicaciones
 
 ## Distribución horaria
 
-<table class="reveal">
-    <tr>
-      <td>Módulo profesional</td>
-      <td>Horas totales</td>
-      <td>Horas semanales</td>
-    </tr>
-    <tr>
-      <td>5021. Incidentes de ciberseguridad.</td>
-      <td>144</td>
-      <td>6</td>
-    </tr>
-    <tr>
-      <td>5021. Incidentes de ciberseguridad.</td>
-      <td>144</td>
-      <td>6</td>
-    </tr>
-    <tr>
-      <td>5021. Incidentes de ciberseguridad.</td>
-      <td>144</td>
-      <td>6</td>
-    </tr>
-    <tr>
-      <td>5021. Incidentes de ciberseguridad.</td>
-      <td>144</td>
-      <td>6</td>
-    </tr>
-    <tr>
-      <td>5021. Incidentes de ciberseguridad.</td>
-      <td>144</td>
-      <td>6</td>
-    </tr>
-    <tr>
-      <td>5021. Incidentes de ciberseguridad.</td>
-      <td>144</td>
-      <td>6</td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>Duración</td>
-      <td>24 semanas</td>
-    </tr>
-  </table>
-  </section>
-
-
-## Proyectos intermodulares
-
 | **Módulo profesional**                | **Horas totales** | **Horas semanales** |
 |---------------------------------------|-------------------|---------------------|
 | 5021. Incidentes de ciberseguridad.   |        144        |          6          |
@@ -176,7 +128,10 @@ Informática y Comunicaciones
 | 5024. Análisis forense informático.   |        120        |          5          |
 | 5025. Hacking ético.                  |        120        |          5          |
 | 5026. Normativa de ciberseguridad.    |         48        |          2          |
-|                                       | **Duración**      |    **24 semanas**   |
+|                                       | **Duración**      |    **24 semanas**   
+
+
+## Proyectos intermodulares
 
 
 ## Contacto directo con la empresa
