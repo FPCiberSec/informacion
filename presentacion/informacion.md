@@ -153,7 +153,7 @@ Informática y Comunicaciones
 
 ## La que no sabe que ha sido hackeada
 
-[![](assets/chema.jpg)](https://commons.wikimedia.org/wiki/File:Chema_Alonso.jpg)
+![](assets/pegasus.jpg)
 
 ---
 
