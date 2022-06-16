@@ -249,7 +249,7 @@ Posibilidad de becas
 					     <ul style="margin: 0.5em">Do your own research!</ul>
                <ul style="margin: 0.5em">Portátil propio</ul>
                </div>
-					    <img class="r-hstack" src="/assets/hacked.jpeg">
+					    <img class="r-hstack" src="assets/hacked.jpeg">
 </div>
 ---
 
