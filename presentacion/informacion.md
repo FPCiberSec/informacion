@@ -14,20 +14,50 @@ Note: Varias diapositivas en verticales de premios
 
 Mejor iniciativa en materia de ciberseguridad implantada en centros educativos
 
+<img class="r-stretch" style="text-align: center" src="assets/enise.jpg">
+
 
 ## Premios en Ciberseguridad
 
+<div class="r-stack">
+<img src="assets/cyberolimpics1.jpg">
+<img class="fragment" src="assets/cyberolimpics2.jpg">	
+<img class="fragment" src="assets/cyberolimpics3.jpg">					    
+</div>
 
-## Actividades enfocadas en Ciberseguridad
+
+## Tradición en Ciberseguridad
+
+<div class="r-stack">
+<img style="margin-top:0;" src="assets/tradicion1.jpg">
+<img class="fragment" src="assets/tradicion2.jpg">	
+<img class="fragment" style="margin-top:5px;" src="assets/tradicion3.png">		
+<img class="fragment" src="assets/tradicion4.jpg">				    
+</div>
 
 
 ## Otras actividades relacionadas
 
+<div class="r-stack">
+<img style="margin-top:0;" src="assets/otras-actividades1.png">
+<img style="margin-top:0;" class="fragment" src="assets/otras-actividades2.png" height="40%">	
+<img style="margin-top:5px;" class="fragment" src="assets/otras-actividades3.png">		
+<img style="margin-top:5px;" class="fragment" src="assets/otras-actividades4.jpeg">				    
+</div>
 
 ## El centro en la prensa
+
+<img class="r-stretch" style="text-align: center" src="assets/prensa.png">
+
 ---
 
 ## Los méritos de nuestro alumnado
+
+<div class="r-stack">
+<img style="margin-top:0;" src="assets/alumnado1.png">
+<img class="fragment" style="margin-top:0;" src="assets/alumnado2.png" height="40%">	    
+</div>
+
 ---
 
 ## Papel de los centros en la FP
@@ -48,6 +78,8 @@ Mejor iniciativa en materia de ciberseguridad implantada en centros educativos
 
 
 ## ¿Cómo se combate la inseguridad?
+
+<img class="r-stretch" style="text-align: center" src="assets/combate.png">
 ---
 
 ## Desarrollo del currículo
@@ -57,17 +89,27 @@ Mejor iniciativa en materia de ciberseguridad implantada en centros educativos
 
 ## Currículo Curso de Especialización en Ciberseguridad
 
+<div class="r-stack">
+<img style="margin-top:5%;" src="assets/iacp.png">
+<img style="margin-top:20%;" class="fragment" src="assets/logo-iesra.png">	
+<img style="margin-top:5%;" class="fragment" src="assets/pymes.png" height="50%">					    
+</div>
+
 
 ## Curso de Especialización
 
-### Título
+**TÍTULO**
+
 Ciberseguridad en Entornos de las TIC
 
-### Familia profesional
+**FAMILIA PROFESIONAL**
+
 Informática y Comunicaciones
 
-### Periodo de realización
+**PERIODO DE REALIZACIÓN**
+
 1 curso académico
+
 720h – 43 créditos ECTS
 
 ---
@@ -92,8 +134,13 @@ Informática y Comunicaciones
 
 ## Fake News
 
+<img class="r-stretch" style="text-align: center" src="assets/fake-news.png">
+
 
 ## La realidad es...
+
+<img class="r-stretch" style="text-align: center" src="assets/dinero.png">
+
 ---
 
 ## Existen dos tipos de personas
@@ -179,7 +226,6 @@ Acercamiento a la realidad
 Mentorías y orientación
 
 Posibilidad de becas
-
 
 ---
 
