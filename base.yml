@@ -1,0 +1,32 @@
+site_name: Docs
+theme:
+  name: material
+  language: es
+  logo: assets/logo-alberties.png
+  favicon: assets/logo-alberties.png
+  palette:
+    - media: "(prefers-color-scheme: light)" 
+      scheme: default
+      primary: white
+      accent: deep purple
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)" 
+      scheme: slate
+      primary: black
+      accent: amber
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode    
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - header.autohide
+    
+copyright: Contenido generado por el equipo educativo de ciberseguridad del IES Rafael Alberti

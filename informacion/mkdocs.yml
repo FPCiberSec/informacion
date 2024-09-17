@@ -1,0 +1,25 @@
+INHERIT: ../base.yml
+site_name: Ciberseguridad en el IES Rafael Alberti
+site_dir: ../html/informacion
+
+plugins:
+  - search:
+      lang: es
+
+# Page tree
+nav:
+  - Inicio: index.md
+  - Nuestro centro: nuestro-centro.md
+  - Becas: becas.md
+  - Módulos: modulos.md
+  - Proyectos: proyectos-intermodulares.md
+  - Profesorado: profesorado.md
+  - Horario: horario.md
+  - Calendario: calendario.md
+  - Enlaces: enlaces.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/fpcibersec
+      name: Ciberseguridad del IES Alberti en Twitter

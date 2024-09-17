@@ -1,0 +1,74 @@
+name: mkdocs-to-html
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - 'informacion/**'
+
+jobs:
+  list-dirs:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.set-matrix.outputs.matrix }}
+    steps:
+      - uses: actions/checkout@v2
+      - id: set-matrix
+        run: |-
+          cd informacion
+          echo "::set-output name=matrix::$(ls -d */ | sed 's/.$//' | jq -R -s -c 'split("\n")[:-1]' )"
+        
+  generate_html:
+    needs: list-dirs
+    runs-on: ubuntu-20.04
+    strategy:
+        max-parallel: 1
+        matrix:
+            dirs: ${{ fromJson(needs.list-dirs.outputs.matrix) }}
+    steps:
+      - uses: actions/checkout@v2.3.4
+      
+      - name: Remove Original
+        uses: JesseTG/rm@v1.0.2
+        with:
+          path: docs/${{ matrix.dirs }}
+      
+      - name: Modify permissions
+        run: sudo chmod 777 docs
+        
+      - name: Install Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.x
+          
+      - name: Install dependencies
+        run: |-
+          sudo apt-get install -y python3-pip python3-cffi python3-brotli libpango-1.0-0 libharfbuzz0b libpangoft2-1.0-0
+          pip install wheel && pip install django-weasyprint && pip install mkdocs && pip install mkdocs-material && pip install mkdocs-with-pdf
+          
+      - name: Generate mkdocs
+        run: |-
+          cd informacion
+          mkdocs build --site-dir ../docs
+      
+      - name: Remove PDF
+        uses: JesseTG/rm@v1.0.2
+        with:
+          path: docs/${{ matrix.dirs }}/pdf
+      
+      - name: Commit changes
+        uses: EndBug/add-and-commit@v7
+        with:
+          author_name: GitHub Action Bot
+          author_email: test@github.com
+          message: "added or modified files"
+          add: docs/
+          
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          branch: main
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          force: true
