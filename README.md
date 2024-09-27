@@ -17,4 +17,4 @@ Capacitar a los estudiantes para garantizar la seguridad en los sistemas inform�
 - Hacking ético
 
 ## Más información
-Visita la [página del curso](https://fpciberseguridad.com/) para más información.
+Visita la [página del curso](hhttp://fpciberseguridad.com/informacion/docs/) para más información.
