@@ -50,4 +50,4 @@ La ciberseguridad tiene la tasa de crecimiento más rápida entre todas las áre
   
 ## Presentación
 
-[Presentación del Curso de Especialización en Ciberseguridad TIC](https://fpciberseguridad.com/informacion/presentacion.html)
+[Presentación del Curso de Especialización en Ciberseguridad TIC](https://fpciberseguridad.com/informacion/slides/presentacion.html)
