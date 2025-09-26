@@ -161,13 +161,13 @@ Informática y Comunicaciones
 
 ## Distribución horaria
 
-![](assets/horario-24-25.png)
+![](assets/horario-25-26.png)
 
 ---
 
 ## De forma presencial
 
-![](assets/aula-ciber.png)
+![](assets/aula-ciber-2025.jpg)
 
 
 ## 
@@ -203,6 +203,6 @@ Acercamiento a la realidad
 
 <!-- .slide: data-background-image="assets/happy-hacking.jpg" data-background-opacity="0.6"-->
 
-## Bienvenidos y...
+## Bienvenidos, bienvenidas y...
 
 ### Happy Hacking !!!

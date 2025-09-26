@@ -5,17 +5,17 @@ hide:
 
 # Horario
 
-## Curso 2024-2025
+## Curso 2025-2026
 
 
 | Lunes | Martes | Miércoles | Jueves | 
 | :---: | :---:  |   :---:   | :---:  |  
-|  NCI  |   ICI  |    ICI    |   AFI  | 
-|  NCI  |   ICI  |    ICI    |   AFI  |  
-|  PPS  |   HET  |    ICI    |   AFI  |  
-|  PPS  |   HET  |    BRS    |   AFI  |  
-|  BRS  |   HET  |    BRS    |   PPS  |  
-|  BRS  |   HET  |    BRS    |   PPS  |  
+|  NCI  |   PPS  |    ICI    |   HET  | 
+|  NCI  |   PPS  |    ICI    |   HET  |  
+|  AFI  |   AFI  |    ICI    |   PPS  |  
+|  AFI  |   AFI  |    HET    |   PPS  |  
+|  BRS  |   BRS  |    HET    |   NCI  |  
+|  BRS  |   BRS  |    BRS    |   NCI  |  
 
 ICI: Incidentes de ciberseguridad.
 

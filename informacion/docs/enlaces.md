@@ -11,4 +11,4 @@ hide:
 
 * [IPasen](https://iesrafaelalberti.es/ayuda-ipasen/)
 
-* [Admisión y Matrículación](https://iesrafaelalberti.es/matriculacion-2223/)
+* [Admisión y Matrículación](https://iesrafaelalberti.es/informacion-general-secretaria-ies-rafael-alberti-cadiz/)
