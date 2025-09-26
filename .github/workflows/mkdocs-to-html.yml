@@ -51,7 +51,7 @@ jobs:
 
       - name: Replace images markdown with HTML syntax
         run: |
-          find mkdocs -name '*.md' -exec perl -0777 -pi -e '
+          find informacion -name '*.md' -exec perl -0777 -pi -e '
           s{
             <center>\s*
             (?:\n|\r)?\s*
