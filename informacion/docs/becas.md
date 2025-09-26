@@ -6,7 +6,7 @@ hide:
 # Programa de becas
 
 <center>
-![](assets/team.jpg)
+![](../assets/team.jpg)
 </center>
 
 El Curso de Especialización en Ciberseguridad en Entornos de las Tecnologías de la Información que impartimos no cuenta por normativa con ningún módulo de prácticas dentro de la empresa. No obstante, el fin último de la Formación Profesional no es otro que la inserción del alumnado en el mundo laboral.

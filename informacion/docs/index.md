@@ -4,7 +4,7 @@ hide:
 ---
 
 <center>
-![](assets/logo-alberties-alberti.png)
+![](../assets/logo-alberties-alberti.png)
 </center>
 
 # Curso de Especialización en Ciberseguridad en Entornos de las Tecnologías de la Información

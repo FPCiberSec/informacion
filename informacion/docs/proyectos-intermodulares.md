@@ -6,7 +6,7 @@ hide:
 # Proyectos intermodulares
 
 <center>
-![](assets/puzzle.jpg)
+![](../assets/puzzle.jpg)
 </center>
 
 La seguridad informática es un campo en el que los profesionales deben desarrollar y actualizar continuamente sus conocimientos en consonancia con los rápidos avances tecnológicos, consideramos, por tanto esencial, preparar a nuestro alumnado para satisfacer las necesidades actuales y futuras en ciberseguridad. 
