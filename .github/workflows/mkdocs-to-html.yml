@@ -22,7 +22,7 @@ jobs:
         
   generate_html:
     needs: list-dirs
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     strategy:
         max-parallel: 1
         matrix:
@@ -39,14 +39,29 @@ jobs:
         run: sudo chmod 777 docs
         
       - name: Install Python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v5
         with:
           python-version: 3.x
           
       - name: Install dependencies
-        run: |-
-          sudo apt-get install -y python3-pip python3-cffi python3-brotli libpango-1.0-0 libharfbuzz0b libpangoft2-1.0-0
-          pip install wheel && pip install django-weasyprint && pip install mkdocs && pip install mkdocs-material && pip install mkdocs-with-pdf
+        run: |
+          pip install --upgrade pip
+          pip install wheel
+          pip install django-weasyprint mkdocs mkdocs-material mkdocs-with-pdf
+
+      - name: Replace images markdown with HTML syntax
+        run: |
+          find mkdocs -name '*.md' -exec perl -0777 -pi -e '
+          s{
+            <center>\s*
+            (?:\n|\r)?\s*
+            !\[([^\]]*)\]\(([^)]+)\)
+            (?:\n|\r)?\s*
+            </center>
+          }{
+            "<p align='\''center'\''>\n  <img alt='\''$1'\'' src='\''$2'\''>\n</p>"
+          }gex;
+          ' {} +
           
       - name: Generate mkdocs
         run: |-
