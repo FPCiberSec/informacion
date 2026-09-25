@@ -19,6 +19,8 @@ En los últimos años [estudiantes del IES Rafael Alberti han formado parte de l
 
 ## ¿Dónde estamos?
 
-[Calle Amiel, S/N, 11012 Barriada de la Paz, Cádiz](https://goo.gl/maps/fXo7jzwtANf6tiM47)
+**Calle Amiel, s/n · Barriada de la Paz · 11012 Cádiz**
 
-<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=-6.276867985725404%2C36.51209809175302%2C-6.273005604743958%2C36.51358340660678&amp;layer=cyclemap&amp;marker=36.512839674865816%2C-6.27493679523468" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/?mlat=36.51284&amp;mlon=-6.27494#map=19/36.51284/-6.27494&amp;layers=C">Ver mapa más grande</a></small>
+<iframe class="al-map" loading="lazy" title="Mapa del IES Rafael Alberti" src="https://www.openstreetmap.org/export/embed.html?bbox=-6.27943679523468%2C36.510639674865814%2C-6.27043679523468%2C36.51503967486582&amp;layer=mapnik&amp;marker=36.512839674865816%2C-6.27493679523468"></iframe>
+
+[Abrir en Google Maps](https://goo.gl/maps/fXo7jzwtANf6tiM47) · [Abrir en OpenStreetMap](https://www.openstreetmap.org/?mlat=36.51284&amp;mlon=-6.27494#map=17/36.51284/-6.27494)

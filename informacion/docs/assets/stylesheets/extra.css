@@ -147,3 +147,13 @@
 .md-typeset table.al-horario td.s { border-left: 1px solid var(--md-default-fg-color--lightest); font-weight: 700; }
 .md-typeset table.al-horario td.s small { display: block; font-weight: 400; font-size: .75em; color: var(--md-default-fg-color--light); }
 .md-typeset .al-note { font-size: .7rem; color: var(--md-default-fg-color--light); }
+
+/* Mapa */
+.md-typeset iframe.al-map {
+  width: 100%;
+  height: 360px;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 8px;
+  display: block;
+  margin: 1em 0 .6em;
+}
