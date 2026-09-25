@@ -413,6 +413,7 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
 /* Rejillas */
 .reveal .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 56px; align-items: center; }
 .reveal .cols-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 48px; }
+.reveal .cols-4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 40px; }
 .reveal .cols img { margin: 0; width: 100%; max-height: 460px; object-fit: cover; border-radius: 6px; }
 
 /* Cifras */
