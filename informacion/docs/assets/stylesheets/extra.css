@@ -98,7 +98,11 @@
 .md-typeset .grid.cards a { font-weight: 600; }
 
 /* Profesorado */
-.md-typeset .grid.cards.team > ul > li { text-align: center; }
+.md-typeset .grid.cards.team > ul > li {
+  text-align: center;
+  border-image: none;
+  border-top: .05rem solid var(--md-default-fg-color--lightest);
+}
 .md-typeset img.avatar {
   width: 96px;
   height: 96px;
