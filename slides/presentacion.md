@@ -66,20 +66,16 @@ Note: La novedad del curso va en la portada: este año es dual.
 
 ---
 
-<!-- .slide: class="divider" -->
+## El título
 
-## Curso de Especialización
-
-
-## Ficha del curso
-
-<div class="kv">
-<div><span>Título</span><span>Ciberseguridad en Entornos de las TIC</span></div>
-<div><span>Familia profesional</span><span>Informática y Comunicaciones</span></div>
-<div><span>Duración</span><span>1 curso académico · 720 h · 43 ECTS</span></div>
-<div><span>Modalidad</span><span>Presencial y <strong class="accent">dual</strong></span></div>
-<div><span>Horario</span><span>Lunes a jueves, de 8:00 a 14:30</span></div>
+<div class="cols-4">
+<div class="stat"><span class="k">Duración</span><span class="n">720 h</span><span class="l">Un curso académico.</span></div>
+<div class="stat"><span class="k">Créditos</span><span class="n">43 ECTS</span><span class="l">Créditos europeos.</span></div>
+<div class="stat"><span class="k">Módulos</span><span class="n">6</span><span class="l">24 horas a la semana.</span></div>
+<div class="stat"><span class="k">Modalidad</span><span class="n">Dual</span><span class="l">252 h en una empresa del sector.</span></div>
 </div>
+
+<p class="small muted" style="margin-top:2em">Familia profesional de Informática y Comunicaciones · De lunes a jueves, de 8:00 a 14:30</p>
 
 ---
 
@@ -267,11 +263,16 @@ Note: Clases de lunes a jueves, 6 h/día. Festivos: 12 oct, 2 nov, 7 y 8 dic, 1 
 
 ## Proyectos intermodulares
 
+<div class="cols">
+<div>
 <ul class="plain">
 <li>Todo tiene sentido en conjunto</li>
 <li>Acercamiento a la realidad</li>
 <li>Preparación para la etapa en la empresa</li>
 </ul>
+</div>
+<div><img src="assets/puzzle.jpg"></div>
+</div>
 
 ---
 
