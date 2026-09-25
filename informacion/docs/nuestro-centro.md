@@ -5,9 +5,7 @@ hide:
 
 # Nuestro centro
 
-<center>
-![](../assets/iesrafaelalberti.jpg)
-</center>
+![](assets/iesrafaelalberti.jpg){ .hero }
 
 ## IES Rafael Alberti
 

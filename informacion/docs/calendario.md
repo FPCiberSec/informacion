@@ -38,4 +38,4 @@ A estos días se suman los festivos locales de Cádiz.
 
 ## Calendario escolar de la provincia de Cádiz
 
-![Calendario escolar 2026-2027 (provincia de Cádiz)](../assets/calendario-escolar-cadiz-26-27.png)
+![Calendario escolar 2026-2027 (provincia de Cádiz)](assets/calendario-escolar-cadiz-26-27.png)

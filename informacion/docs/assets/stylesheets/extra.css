@@ -1,0 +1,98 @@
+/* Identidad del Curso de Especialización en Ciberseguridad · IES Rafael Alberti
+   Mismos colores y tipografía que la presentación: Gaz para títulos y el degradado
+   rojo (red team) → azul (blue team) del escudo de Alberties. */
+
+@font-face {
+  font-family: "Gaz Rg";
+  src: url("../fonts/GazRg-Regular.woff2") format("woff2"),
+       url("../fonts/GazRg-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --al-red: #E33457;
+  --al-blue: #033EB0;
+  --al-gradient: linear-gradient(90deg, var(--al-red), var(--al-blue));
+  --al-heading: "Gaz Rg", "Roboto", Helvetica, Arial, sans-serif;
+}
+
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: #ffffff;
+  --md-primary-bg-color: #14171c;
+  --md-accent-fg-color: #d12d4f;
+  --md-typeset-a-color: #033EB0;
+}
+
+[data-md-color-scheme="slate"] {
+  --al-red: #ff5a7a;
+  --al-blue: #6f95ff;
+  --md-accent-fg-color: #ff5a7a;
+  --md-typeset-a-color: #8fb0ff;
+}
+
+/* Cabecera: fina línea con el degradado */
+.md-header { box-shadow: none; }
+.md-header::after {
+  content: "";
+  position: absolute;
+  left: 0; right: 0; bottom: 0;
+  height: 3px;
+  background: var(--al-gradient);
+}
+.md-tabs { border-bottom: 1px solid var(--md-default-fg-color--lightest); }
+
+/* Títulos */
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3 {
+  font-family: var(--al-heading);
+  letter-spacing: .01em;
+  font-weight: normal;
+}
+.md-typeset h1 {
+  display: inline-block;
+  background: var(--al-gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  font-size: 2.2em;
+  line-height: 1.15;
+  margin-bottom: .8em;
+}
+.md-typeset h2 { font-size: 1.5em; color: var(--md-default-fg-color); }
+.md-typeset h3 { font-size: 1.2em; }
+
+/* Imagen principal de cada página */
+.md-typeset img.hero {
+  display: block;
+  margin: 0 auto 1.5em;
+  max-height: 340px;
+  border-radius: 6px;
+}
+
+/* Tablas */
+.md-typeset table:not([class]) {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 6px;
+  font-size: .75rem;
+}
+.md-typeset table:not([class]) th {
+  background: var(--md-default-fg-color--lightest);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .06em;
+  font-size: .65rem;
+}
+
+/* Tarjetas de la portada */
+.md-typeset .grid.cards > ul > li {
+  border-radius: 8px;
+  border-top: 3px solid transparent;
+  border-image: var(--al-gradient) 1;
+  border-image-slice: 1 0 0 0;
+}
+.md-typeset .grid.cards > ul > li:hover { box-shadow: var(--md-shadow-z2); }
+.md-typeset .grid.cards a { font-weight: 600; }

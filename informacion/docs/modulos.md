@@ -5,9 +5,7 @@ hide:
 
 # Módulos profesionales
 
-<center>
-![](../assets/sistemas-protegidos.jpg)
-</center>
+![](assets/sistemas-protegidos.jpg){ .hero }
 
 ## Incidentes de ciberseguridad
 

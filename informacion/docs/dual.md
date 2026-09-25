@@ -5,9 +5,7 @@ hide:
 
 # Formación dual
 
-<center>
-![](../assets/team.jpg)
-</center>
+![](assets/team.jpg){ .hero }
 
 Desde el curso 2026-2027, el Curso de Especialización en Ciberseguridad en Entornos de las Tecnologías de la Información se imparte en **modalidad dual**: una parte de la formación se realiza en una empresa del sector.
 
