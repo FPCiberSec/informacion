@@ -96,3 +96,18 @@
 }
 .md-typeset .grid.cards > ul > li:hover { box-shadow: var(--md-shadow-z2); }
 .md-typeset .grid.cards a { font-weight: 600; }
+
+/* Profesorado */
+.md-typeset .grid.cards.team > ul > li { text-align: center; }
+.md-typeset img.avatar {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: .4em auto .8em;
+  border: 3px solid transparent;
+  background: var(--al-gradient) border-box;
+}
+.md-typeset .grid.cards.team strong { font-size: 1.05em; }
+.md-typeset .grid.cards.team p { margin: .3em 0; }
