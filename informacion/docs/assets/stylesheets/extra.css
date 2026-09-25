@@ -111,3 +111,7 @@
 }
 .md-typeset .grid.cards.team strong { font-size: 1.05em; }
 .md-typeset .grid.cards.team p { margin: .3em 0; }
+
+/* Enlaces de interés: lista limpia */
+.md-typeset .links ul { list-style: none; margin-left: 0; }
+.md-typeset .links li { margin-left: 0; margin-bottom: .9em; }
