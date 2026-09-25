@@ -12,12 +12,13 @@
 		<link rel="stylesheet" href="dist/reveal.css">
 		
 		<!-- Aquí se elige el tema css -->
-		<link rel="stylesheet" href="dist/theme/white-alberties.css">
+		<link rel="stylesheet" href="dist/theme/alberti.css">
 
 		<!-- Theme used for syntax highlighted code -->
 		<link rel="stylesheet" href="plugin/highlight/monokai.css">
 	</head>
 	<body>
+		<div class="brand"><img src="assets/logo-alberties-mini.png" alt=""></div>
 		<div class="reveal">
 			<div class="slides">
 				<section data-markdown="presentacion.md"
@@ -42,11 +43,13 @@
 			// - https://revealjs.com/config/
 			Reveal.initialize({
 				hash: true,
+				slideNumber: "c/t",
+				transition: "fade",
 				// The "normal" size of the presentation, aspect ratio will
   				// be preserved when the presentation is scaled to fit different
   				// resolutions. Can be specified using percentage units.
-  				width: 960,
-  				height: 700,
+  				width: 1280,
+  				height: 720,
 
   				// Factor of the display size that should remain empty around
   				// the content

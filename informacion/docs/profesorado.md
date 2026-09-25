@@ -5,11 +5,40 @@ hide:
 
 # Profesorado
 
-[David Romero Santos](https://github.com/DavidLMS)
+El equipo docente del Curso de Especialización en Ciberseguridad en el curso 2026-2027.
 
-[Eduardo Fernández Oliver](https://github.com/revilofe)
+<div class="grid cards team" markdown>
 
-[Francisco Javier Ortega Nogueras](https://github.com/fjortegan)
+-   ![](https://github.com/DavidLMS.png?size=160){ .avatar }
 
-[Manuel Jesús Rivas Sández](https://github.com/0xmrivas) 
+    **David Romero Santos**
 
+    Bastionado de Redes y Sistemas · Normativa de Ciberseguridad
+
+    [github.com/DavidLMS](https://github.com/DavidLMS)
+
+-   ![](https://github.com/revilofe.png?size=160){ .avatar }
+
+    **Eduardo Fernández Oliver**
+
+    Incidentes de Ciberseguridad
+
+    [github.com/revilofe](https://github.com/revilofe)
+
+-   ![](https://github.com/0xmrivas.png?size=160){ .avatar }
+
+    **Manuel Jesús Rivas Sández**
+
+    Análisis Forense Informático · Hacking Ético · Tutoría
+
+    [github.com/0xmrivas](https://github.com/0xmrivas)
+
+-   ![](https://github.com/fjortegan.png?size=160){ .avatar }
+
+    **Francisco Javier Ortega Nogueras**
+
+    Puesta en Producción Segura
+
+    [github.com/fjortegan](https://github.com/fjortegan)
+
+</div>

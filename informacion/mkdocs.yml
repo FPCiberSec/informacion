@@ -2,6 +2,13 @@ INHERIT: ../base.yml
 site_name: Ciberseguridad en el IES Rafael Alberti
 site_dir: ../html/informacion
 
+extra_css:
+  - assets/stylesheets/extra.css
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+
 plugins:
   - search:
       lang: es
@@ -10,7 +17,7 @@ plugins:
 nav:
   - Inicio: index.md
   - Nuestro centro: nuestro-centro.md
-  - Becas: becas.md
+  - Formación dual: dual.md
   - Módulos: modulos.md
   - Proyectos: proyectos-intermodulares.md
   - Profesorado: profesorado.md

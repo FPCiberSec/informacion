@@ -1,0 +1,512 @@
+/**
+ * Alberti — tema claro y sobrio para la presentación del Curso de Especialización
+ * en Ciberseguridad (IES Rafael Alberti). Basado en el tema 'white' de reveal.js (Hakim El Hattab).
+ */
+@import url(./fonts/source-sans-pro/source-sans-pro.css);
+@font-face {
+  font-family: 'Gaz Rg';
+  src: url('./fonts/gaz/GazRg-Regular.woff2') format('woff2'),
+       url('./fonts/gaz/GazRg-Regular.woff') format('woff'),
+       url('./fonts/gaz/GazRg-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+section.has-dark-background, section.has-dark-background h1, section.has-dark-background h2, section.has-dark-background h3, section.has-dark-background h4, section.has-dark-background h5, section.has-dark-background h6 {
+  color: #fff;
+}
+
+/*********************************************
+ * GLOBAL STYLES
+ *********************************************/
+:root {
+  --r-background-color: #fff;
+  --r-main-font: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+  --r-main-font-size: 34px;
+  --r-main-color: #2b2f36;
+  --r-block-margin: 20px;
+  --r-heading-margin: 0 0 20px 0;
+  --r-heading-font: 'Gaz Rg', 'Source Sans Pro', Helvetica, sans-serif;
+  --r-heading-color: #14171c;
+  --r-heading-line-height: 1.2;
+  --r-heading-letter-spacing: 0.01em;
+  --r-heading-text-transform: none;
+  --r-heading-text-shadow: none;
+  --r-heading-font-weight: normal;
+  --r-heading1-text-shadow: none;
+  --r-heading1-size: 2.5em;
+  --r-heading2-size: 1.6em;
+  --r-heading3-size: 1.3em;
+  --r-heading4-size: 1em;
+  --r-code-font: monospace;
+  --r-link-color: #b3122e;
+  --r-link-color-dark: #8c0e24;
+  --r-link-color-hover: #d6334f;
+  --r-selection-background-color: #f2c4cc;
+  --r-selection-color: #14171c;
+}
+
+.reveal-viewport {
+  background: #fff;
+  background-color: var(--r-background-color);
+}
+
+.reveal {
+  font-family: var(--r-main-font);
+  font-size: var(--r-main-font-size);
+  font-weight: normal;
+  color: var(--r-main-color);
+}
+
+.reveal ::selection {
+  color: var(--r-selection-color);
+  background: var(--r-selection-background-color);
+  text-shadow: none;
+}
+
+.reveal ::-moz-selection {
+  color: var(--r-selection-color);
+  background: var(--r-selection-background-color);
+  text-shadow: none;
+}
+
+.reveal .slides section,
+.reveal .slides section > section {
+  line-height: 1.3;
+  font-weight: inherit;
+}
+
+/*********************************************
+ * HEADERS
+ *********************************************/
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+  margin: var(--r-heading-margin);
+  color: var(--r-heading-color);
+  font-family: var(--r-heading-font);
+  font-weight: var(--r-heading-font-weight);
+  line-height: var(--r-heading-line-height);
+  letter-spacing: var(--r-heading-letter-spacing);
+  text-transform: var(--r-heading-text-transform);
+  text-shadow: var(--r-heading-text-shadow);
+  word-wrap: break-word;
+}
+
+.reveal h1 {
+  font-size: var(--r-heading1-size);
+}
+
+.reveal h2 {
+  font-size: var(--r-heading2-size);
+}
+
+.reveal h3 {
+  font-size: var(--r-heading3-size);
+}
+
+.reveal h4 {
+  font-size: var(--r-heading4-size);
+}
+
+.reveal h1 {
+  text-shadow: var(--r-heading1-text-shadow);
+}
+
+/*********************************************
+ * OTHER
+ *********************************************/
+.reveal p {
+  margin: var(--r-block-margin) 0;
+  line-height: 1.3;
+}
+
+/* Remove trailing margins after titles */
+.reveal h1:last-child,
+.reveal h2:last-child,
+.reveal h3:last-child,
+.reveal h4:last-child,
+.reveal h5:last-child,
+.reveal h6:last-child {
+  margin-bottom: 0;
+}
+
+/* Ensure certain elements are never larger than the slide itself */
+.reveal img,
+.reveal video,
+.reveal iframe {
+  max-width: 95%;
+  max-height: 95%;
+}
+
+.reveal strong,
+.reveal b {
+  font-weight: bold;
+}
+
+.reveal em {
+  font-style: italic;
+}
+
+.reveal ol,
+.reveal dl,
+.reveal ul {
+  display: inline-block;
+  text-align: left;
+  margin: 0 0 0 1em;
+}
+
+.reveal ol {
+  list-style-type: decimal;
+}
+
+.reveal ul {
+  list-style-type: disc;
+}
+
+.reveal ul ul {
+  list-style-type: square;
+}
+
+.reveal ul ul ul {
+  list-style-type: circle;
+}
+
+.reveal ul ul,
+.reveal ul ol,
+.reveal ol ol,
+.reveal ol ul {
+  display: block;
+  margin-left: 40px;
+}
+
+.reveal dt {
+  font-weight: bold;
+}
+
+.reveal dd {
+  margin-left: 40px;
+}
+
+.reveal blockquote {
+  display: block;
+  position: relative;
+  width: 70%;
+  margin: var(--r-block-margin) auto;
+  padding: 5px;
+  font-style: italic;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2);
+}
+
+.reveal blockquote p:first-child,
+.reveal blockquote p:last-child {
+  display: inline-block;
+}
+
+.reveal q {
+  font-style: italic;
+}
+
+.reveal pre {
+  display: block;
+  position: relative;
+  width: 90%;
+  margin: var(--r-block-margin) auto;
+  text-align: left;
+  font-size: 0.55em;
+  font-family: var(--r-code-font);
+  line-height: 1.2em;
+  word-wrap: break-word;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+.reveal code {
+  font-family: var(--r-code-font);
+  text-transform: none;
+  tab-size: 2;
+}
+
+.reveal pre code {
+  display: block;
+  padding: 5px;
+  overflow: auto;
+  max-height: 400px;
+  word-wrap: normal;
+}
+
+.reveal .code-wrapper {
+  white-space: normal;
+}
+
+.reveal .code-wrapper code {
+  white-space: pre;
+}
+
+.reveal table {
+  margin: auto;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.reveal table th {
+  font-weight: bold;
+}
+
+.reveal table th,
+.reveal table td {
+  text-align: left;
+  padding: 0.2em 0.5em 0.2em 0.5em;
+  border-bottom: 1px solid;
+}
+
+.reveal table th[align=center],
+.reveal table td[align=center] {
+  text-align: center;
+}
+
+.reveal table th[align=right],
+.reveal table td[align=right] {
+  text-align: right;
+}
+
+.reveal table tbody tr:last-child th,
+.reveal table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.reveal sup {
+  vertical-align: super;
+  font-size: smaller;
+}
+
+.reveal sub {
+  vertical-align: sub;
+  font-size: smaller;
+}
+
+.reveal small {
+  display: inline-block;
+  font-size: 0.6em;
+  line-height: 1.2em;
+  vertical-align: top;
+}
+
+.reveal small * {
+  vertical-align: top;
+}
+
+.reveal img {
+  margin: var(--r-block-margin) 0;
+}
+
+/*********************************************
+ * LINKS
+ *********************************************/
+.reveal a {
+  color: var(--r-link-color);
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+.reveal a:hover {
+  color: var(--r-link-color-hover);
+  text-shadow: none;
+  border: none;
+}
+
+.reveal .roll span:after {
+  color: #fff;
+  background: var(--r-link-color-dark);
+}
+
+/*********************************************
+ * Frame helper
+ *********************************************/
+.reveal .r-frame {
+  border: 4px solid var(--r-main-color);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+
+.reveal a .r-frame {
+  transition: all 0.15s linear;
+}
+
+.reveal a:hover .r-frame {
+  border-color: var(--r-link-color);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.55);
+}
+
+/*********************************************
+ * NAVIGATION CONTROLS
+ *********************************************/
+.reveal .controls {
+  color: var(--r-link-color);
+}
+
+/*********************************************
+ * PROGRESS BAR
+ *********************************************/
+.reveal .progress {
+  background: rgba(0, 0, 0, 0.2);
+  color: var(--r-link-color);
+}
+
+/*********************************************
+ * PRINT BACKGROUND
+ *********************************************/
+@media print {
+  .backgrounds {
+    background-color: var(--r-background-color);
+  }
+}
+/*********************************************
+ * ALBERTI — ajustes propios
+ *********************************************/
+:root {
+  --al-ink: #14171c;
+  --al-text: #2b2f36;
+  --al-muted: #6b7079;
+  --al-line: #e3e5e8;
+  --al-soft: #f5f6f7;
+  --al-accent: #d12d4f;
+  --al-red: #E33457;
+  --al-blue: #033EB0;
+  --al-gradient: linear-gradient(90deg, var(--al-red), var(--al-blue));
+}
+
+.reveal-viewport { background: #fff; }
+.reveal .slides section { text-align: left; }
+.reveal .slides section.center, .reveal .center { text-align: center; }
+.reveal h1, .reveal h2, .reveal h3 { text-wrap: balance; }
+.reveal h2 { margin-bottom: .7em; }
+.reveal p, .reveal li { line-height: 1.5; }
+.reveal .muted { color: var(--al-muted); }
+.reveal .accent { color: var(--al-accent); }
+.reveal .small { font-size: .7em; }
+.reveal .tiny { font-size: .5em; }
+
+/* Etiqueta pequeña sobre el título */
+.reveal .eyebrow {
+  font-size: .5em;
+  font-weight: 600;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: var(--al-accent);
+  margin: 0 0 .9em;
+}
+
+/* Portada y separadores */
+.reveal .cover h1 { font-size: 2.3em; line-height: 1.05; margin: 0 0 .35em; }
+.reveal .cover .sub { font-size: .8em; color: var(--al-muted); margin: 0; }
+.reveal .cover img.logo { height: 90px; margin: 1.6em 0 0; }
+.reveal .divider h2 { font-size: 2em; margin: 0; }
+.reveal .divider p { color: var(--al-muted); font-size: .8em; margin-top: .5em; }
+
+/* Imágenes */
+.reveal .fig { text-align: center; }
+.reveal .fig img, .reveal img.fig { margin: 0; border-radius: 6px; max-height: 500px; object-fit: contain; }
+.reveal .caption { font-size: .45em; color: var(--al-muted); margin-top: .6em; text-align: center; }
+
+/* Rejillas */
+.reveal .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 56px; align-items: center; }
+.reveal .cols-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 48px; }
+.reveal .cols img { margin: 0; width: 100%; max-height: 460px; object-fit: cover; border-radius: 6px; }
+
+/* Cifras */
+.reveal .stat .n { font-family: var(--r-heading-font); font-size: 2.1em; line-height: 1; color: var(--al-ink); display: block; margin-bottom: .2em; }
+.reveal .stat .l { font-size: .62em; color: var(--al-text); display: block; line-height: 1.45; }
+.reveal .stat .k { font-size: .42em; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--al-muted); display: block; margin-bottom: .8em; }
+
+/* Listas limpias */
+.reveal ul.plain { list-style: none; margin: 0; padding: 0; }
+.reveal ul.plain li { padding: .35em 0; border-bottom: 1px solid var(--al-line); }
+.reveal ul.plain li:last-child { border-bottom: none; }
+
+/* Ficha */
+.reveal .kv { font-size: .62em; border-top: 1px solid var(--al-line); }
+.reveal .kv > div { display: grid; grid-template-columns: 300px 1fr; padding: 14px 0; border-bottom: 1px solid var(--al-line); }
+.reveal .kv span:first-child { color: var(--al-muted); }
+
+/* Módulos */
+.reveal .mods { display: grid; grid-template-columns: 1fr 1fr; gap: 0 56px; font-size: .62em; }
+.reveal .mods div { display: grid; grid-template-columns: 70px 1fr auto; gap: 14px; padding: 16px 0; border-bottom: 1px solid var(--al-line); align-items: baseline; }
+.reveal .mods b { font-weight: 600; color: var(--al-accent); letter-spacing: .04em; }
+.reveal .mods span:last-child { color: var(--al-muted); font-variant-numeric: tabular-nums; }
+
+/* Reparto centro / empresa */
+.reveal .split { display: flex; height: 10px; border-radius: 5px; overflow: hidden; margin: 10px 0 18px; }
+.reveal .split .c { background: var(--al-ink); flex: 74; }
+.reveal .split .e { background: var(--al-accent); flex: 42; }
+.reveal .phases { display: flex; font-size: .6em; }
+.reveal .phases > div { flex: 74; }
+.reveal .phases > div + div { flex: 42; }
+.reveal .phases b { display: block; font-size: 1.1em; color: var(--al-ink); }
+.reveal .phases .e b { color: var(--al-accent); }
+.reveal .phases span { color: var(--al-muted); }
+.reveal .dates { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px 40px; margin-top: 48px; font-size: .62em; }
+.reveal .dates b { display: block; color: var(--al-ink); font-weight: 600; }
+.reveal .dates span { color: var(--al-muted); }
+
+/* Mini calendario */
+.reveal .cal { display: grid; grid-template-columns: repeat(5, 1fr); gap: 18px 26px; }
+.reveal .cal .m h4 { font-family: var(--r-main-font); font-size: 13px; font-weight: 600; color: var(--al-ink); margin: 0 0 6px; text-transform: uppercase; letter-spacing: .1em; }
+.reveal .cal .g { display: grid; grid-template-columns: repeat(7, 1fr); gap: 2px; }
+.reveal .cal .g span { height: 21px; line-height: 21px; text-align: center; border-radius: 3px; font-size: 11px; color: #b6bac0; font-variant-numeric: tabular-nums; }
+.reveal .cal .g .hd { color: var(--al-muted); height: 15px; line-height: 15px; }
+.reveal .cal .g .c { background: var(--al-ink); color: #fff; }
+.reveal .cal .g .e { background: var(--al-accent); color: #fff; }
+.reveal .cal .g .v, .reveal .cal .g .h { background: var(--al-soft); color: #9aa0a8; }
+.reveal .cal .g .f { color: #d4d7db; }
+.reveal .legend { display: flex; gap: 26px; font-size: 13px; color: var(--al-muted); margin-top: 18px; }
+.reveal .legend i { display: inline-block; width: 11px; height: 11px; border-radius: 2px; margin-right: 6px; vertical-align: -1px; }
+
+/* Horario */
+.reveal table.horario { width: 100%; table-layout: fixed; border-collapse: collapse; font-size: .52em; margin: 0; }
+.reveal table.horario th { font-weight: 600; color: var(--al-muted); border: none; border-bottom: 1px solid var(--al-line); padding: 8px; text-align: center; }
+.reveal table.horario th:first-child { width: 150px; }
+.reveal table.horario td { border: none; border-bottom: 1px solid var(--al-line); padding: 0; height: 60px; text-align: center; vertical-align: middle; }
+.reveal table.horario td.tr { color: var(--al-muted); text-align: left; font-size: .85em; font-variant-numeric: tabular-nums; }
+.reveal table.horario td.s { border-left: 1px solid var(--al-line); color: var(--al-ink); font-weight: 600; }
+.reveal table.horario td.s small { display: block; font-weight: 400; color: var(--al-muted); font-size: .75em; }
+
+/* Equipo */
+.reveal .team { display: grid; grid-template-columns: 1fr 1fr; gap: 0 56px; font-size: .62em; }
+.reveal .team div { padding: 18px 0; border-bottom: 1px solid var(--al-line); }
+.reveal .team b { display: block; color: var(--al-ink); font-weight: 600; }
+.reveal .team span { color: var(--al-muted); }
+
+/* Progreso y controles */
+.reveal .progress { color: var(--al-accent); height: 3px; }
+.reveal .controls { color: var(--al-muted); }
+.reveal .slide-number { background: transparent; color: var(--al-muted); font-size: 13px; }
+.reveal .r-stack img { max-height: 470px !important; max-width: 100% !important; width: auto; height: auto; }
+
+/* Portada con logo */
+.reveal .cover-grid { display: grid; grid-template-columns: 1.3fr 1fr; gap: 40px; align-items: center; }
+.reveal .cover-grid img { margin: 0; width: auto; height: 420px; max-width: 100%; max-height: none; object-fit: contain; }
+
+/* Logo pequeño en la esquina de todas las diapositivas (menos la portada) */
+.brand { position: fixed; top: 22px; right: 28px; z-index: 30; pointer-events: none; transition: opacity .3s; }
+.brand img { height: 64px; display: block; }
+.is-cover .brand { opacity: 0; }
+
+/* Normas: rejilla de bloques */
+.reveal .rules { display: grid; grid-template-columns: 1fr 1fr; gap: 34px 64px; }
+.reveal .rules h4 { font-family: var(--r-main-font); font-size: .5em; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--al-accent); margin: 0 0 .5em; }
+.reveal .rules p { font-size: .66em; margin: 0; line-height: 1.45; }
+
+/* Degradado red team / blue team en todos los títulos y en la barra de progreso */
+.reveal h1,
+.reveal h2,
+.reveal h3 {
+  display: inline-block;
+  background: var(--al-gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+.reveal .progress span { background: var(--al-gradient); }

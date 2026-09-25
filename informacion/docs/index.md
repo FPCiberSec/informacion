@@ -3,15 +3,41 @@ hide:
   - navigation
 ---
 
-<center>
-![](../assets/logo-alberties-alberti.png)
-</center>
+![](assets/logo-alberties-alberti.png){ .hero }
 
 # Curso de Especialización en Ciberseguridad en Entornos de las Tecnologías de la Información
 
 La ciberseguridad es una necesidad esencial para una sociedad en la que la tecnología y los servicios de información impregnan todos los aspectos de nuestras vidas. Asegurar nuestros sistemas digitales y de control de infraestructuras es actualmente una demanda crucial en un mundo hiperconectado caracterizado por continuos ataques de ciberseguridad. 
 
 La ciberseguridad tiene la tasa de crecimiento más rápida entre todas las áreas de TI, es por ello que el mercado laboral enfrenta una grave escasez de mano de obra en dicho área. El objetivo de este curso de especialización es proporcionar al alumnado conocimientos técnicos esenciales, así como competencias y habilidades de investigación en el área de la ciberseguridad.
+
+<div class="grid cards" markdown>
+
+- [**Formación dual**](dual.md)
+
+    Parte del curso se hace en una empresa del sector, del 2 de marzo al 19 de mayo.
+
+- [**Módulos**](modulos.md)
+
+    Seis módulos: bastionado, hacking ético, forense, incidentes, puesta en producción y normativa.
+
+- [**Horario**](horario.md)
+
+    De lunes a jueves, de 8:00 a 14:30, en el aula 115.
+
+- [**Calendario**](calendario.md)
+
+    Fechas clave del curso 2026-2027 y días no lectivos.
+
+- [**Profesorado**](profesorado.md)
+
+    El equipo docente del curso.
+
+- [**Nuestro centro**](nuestro-centro.md)
+
+    El IES Rafael Alberti y su trayectoria en ciberseguridad.
+
+</div>
 
 ## Acerca del curso
 

@@ -1,0 +1,159 @@
+/* Identidad del Curso de Especialización en Ciberseguridad · IES Rafael Alberti
+   Mismos colores y tipografía que la presentación: Gaz para títulos y el degradado
+   rojo (red team) → azul (blue team) del escudo de Alberties. */
+
+@font-face {
+  font-family: "Gaz Rg";
+  src: url("../fonts/GazRg-Regular.woff2") format("woff2"),
+       url("../fonts/GazRg-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --al-red: #E33457;
+  --al-blue: #033EB0;
+  --al-gradient: linear-gradient(90deg, var(--al-red), var(--al-blue));
+  --al-heading: "Gaz Rg", "Roboto", Helvetica, Arial, sans-serif;
+}
+
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: #ffffff;
+  --md-primary-bg-color: #14171c;
+  --md-accent-fg-color: #d12d4f;
+  --md-typeset-a-color: #033EB0;
+}
+
+[data-md-color-scheme="slate"] {
+  --al-red: #ff5a7a;
+  --al-blue: #6f95ff;
+  --md-accent-fg-color: #ff5a7a;
+  --md-typeset-a-color: #8fb0ff;
+}
+
+/* Cabecera: fina línea con el degradado */
+.md-header { box-shadow: none; }
+.md-header::after {
+  content: "";
+  position: absolute;
+  left: 0; right: 0; bottom: 0;
+  height: 3px;
+  background: var(--al-gradient);
+}
+.md-tabs { border-bottom: 1px solid var(--md-default-fg-color--lightest); }
+
+/* Títulos */
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3 {
+  font-family: var(--al-heading);
+  letter-spacing: .01em;
+  font-weight: normal;
+}
+.md-typeset h1 {
+  display: inline-block;
+  background: var(--al-gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  font-size: 2.2em;
+  line-height: 1.15;
+  margin-bottom: .8em;
+}
+.md-typeset h2 { font-size: 1.5em; color: var(--md-default-fg-color); }
+.md-typeset h3 { font-size: 1.2em; }
+
+/* Imagen principal de cada página */
+.md-typeset img.hero {
+  display: block;
+  margin: 0 auto 1.5em;
+  max-height: 340px;
+  border-radius: 6px;
+}
+
+/* Tablas */
+.md-typeset table:not([class]) {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 6px;
+  font-size: .75rem;
+}
+.md-typeset table:not([class]) th {
+  background: var(--md-default-fg-color--lightest);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .06em;
+  font-size: .65rem;
+}
+
+/* Tarjetas de la portada */
+.md-typeset .grid.cards > ul > li { border-radius: 8px; }
+.md-typeset .grid.cards > ul > li:hover { box-shadow: var(--md-shadow-z2); }
+.md-typeset .grid.cards a { font-weight: 600; }
+
+/* Profesorado */
+.md-typeset .grid.cards.team > ul > li { text-align: center; }
+.md-typeset img.avatar {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: .4em auto .8em;
+  border: 3px solid transparent;
+  background: var(--al-gradient) border-box;
+}
+.md-typeset .grid.cards.team strong { font-size: 1.05em; }
+.md-typeset .grid.cards.team p { margin: .3em 0; }
+
+/* Enlaces de interés: lista limpia */
+.md-typeset .links ul { list-style: none; margin-left: 0; }
+.md-typeset .links li { margin-left: 0; margin-bottom: .9em; }
+
+/* Reparto centro / empresa */
+.md-typeset .al-split { display: flex; height: 8px; border-radius: 4px; overflow: hidden; margin: 1em 0 .8em; }
+.md-typeset .al-split .c { flex: 74; background: var(--md-default-fg-color); }
+.md-typeset .al-split .e { flex: 42; background: var(--al-red); }
+.md-typeset .al-phases { display: flex; gap: 1em; font-size: .75rem; margin-bottom: 1.5em; color: var(--md-default-fg-color--light); }
+.md-typeset .al-phases > div { flex: 74; }
+.md-typeset .al-phases > div.e { flex: 42; }
+.md-typeset .al-phases strong { color: var(--md-default-fg-color); }
+.md-typeset .al-phases .e strong { color: var(--al-red); }
+
+/* Mini calendario */
+.md-typeset .al-cal { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 1.2em 1.4em; margin: 1em 0; }
+.md-typeset .al-cal .mt { font-size: .62rem; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; margin-bottom: .4em; }
+.md-typeset .al-cal .g { display: grid; grid-template-columns: repeat(7, 1fr); gap: 2px; }
+.md-typeset .al-cal .g span { font-size: .55rem; text-align: center; line-height: 1.9; border-radius: 3px; color: var(--md-default-fg-color--lighter); font-variant-numeric: tabular-nums; }
+.md-typeset .al-cal .g .hd { color: var(--md-default-fg-color--light); font-weight: 600; }
+.md-typeset .al-cal .g .c { background: var(--md-default-fg-color); color: var(--md-default-bg-color); }
+.md-typeset .al-cal .g .e { background: var(--al-red); color: #fff; }
+.md-typeset .al-cal .g .h { background: var(--md-default-fg-color--lightest); color: var(--md-default-fg-color--light); }
+.md-typeset .al-cal .g .f { opacity: .45; }
+.md-typeset .al-legend { display: flex; flex-wrap: wrap; gap: 1.5em; font-size: .65rem; color: var(--md-default-fg-color--light); margin-bottom: 1.5em; }
+.md-typeset .al-legend i { display: inline-block; width: .8em; height: .8em; border-radius: 2px; margin-right: .4em; vertical-align: -1px; }
+.md-typeset .al-legend i.c { background: var(--md-default-fg-color); }
+.md-typeset .al-legend i.e { background: var(--al-red); }
+.md-typeset .al-legend i.h { background: var(--md-default-fg-color--lightest); }
+
+/* Horario con celdas combinadas */
+.md-typeset .al-horario-wrap { overflow-x: auto; }
+.md-typeset table.al-horario { display: table; width: 100%; table-layout: fixed; border-collapse: collapse; font-size: .75rem; border: none; }
+.md-typeset table.al-horario th { font-weight: 600; font-size: .65rem; text-transform: uppercase; letter-spacing: .06em; color: var(--md-default-fg-color--light); background: none; border-bottom: 1px solid var(--md-default-fg-color--lightest); text-align: center; padding: .6em; }
+.md-typeset table.al-horario th:first-child { width: 8.5em; }
+.md-typeset table.al-horario td { height: 3em; padding: 0; text-align: center; vertical-align: middle; border-bottom: 1px solid var(--md-default-fg-color--lightest); }
+.md-typeset table.al-horario td.tr { color: var(--md-default-fg-color--light); font-size: .68rem; text-align: left; font-variant-numeric: tabular-nums; }
+.md-typeset table.al-horario td.s { border-left: 1px solid var(--md-default-fg-color--lightest); font-weight: 700; }
+.md-typeset table.al-horario td.s small { display: block; font-weight: 400; font-size: .75em; color: var(--md-default-fg-color--light); }
+.md-typeset .al-note { font-size: .7rem; color: var(--md-default-fg-color--light); }
+
+/* Mapa */
+.md-typeset iframe.al-map {
+  width: 100%;
+  height: 360px;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 8px;
+  display: block;
+  margin: 1em 0 .6em;
+}
