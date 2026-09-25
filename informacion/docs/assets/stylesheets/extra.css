@@ -88,21 +88,12 @@
 }
 
 /* Tarjetas de la portada */
-.md-typeset .grid.cards > ul > li {
-  border-radius: 8px;
-  border-top: 3px solid transparent;
-  border-image: var(--al-gradient) 1;
-  border-image-slice: 1 0 0 0;
-}
+.md-typeset .grid.cards > ul > li { border-radius: 8px; }
 .md-typeset .grid.cards > ul > li:hover { box-shadow: var(--md-shadow-z2); }
 .md-typeset .grid.cards a { font-weight: 600; }
 
 /* Profesorado */
-.md-typeset .grid.cards.team > ul > li {
-  text-align: center;
-  border-image: none;
-  border-top: .05rem solid var(--md-default-fg-color--lightest);
-}
+.md-typeset .grid.cards.team > ul > li { text-align: center; }
 .md-typeset img.avatar {
   width: 96px;
   height: 96px;
