@@ -115,3 +115,40 @@
 /* Enlaces de interés: lista limpia */
 .md-typeset .links ul { list-style: none; margin-left: 0; }
 .md-typeset .links li { margin-left: 0; margin-bottom: .9em; }
+
+/* Reparto centro / empresa */
+.md-typeset .al-split { display: flex; height: 8px; border-radius: 4px; overflow: hidden; margin: 1em 0 .8em; }
+.md-typeset .al-split .c { flex: 74; background: var(--md-default-fg-color); }
+.md-typeset .al-split .e { flex: 42; background: var(--al-red); }
+.md-typeset .al-phases { display: flex; gap: 1em; font-size: .75rem; margin-bottom: 1.5em; color: var(--md-default-fg-color--light); }
+.md-typeset .al-phases > div { flex: 74; }
+.md-typeset .al-phases > div.e { flex: 42; }
+.md-typeset .al-phases strong { color: var(--md-default-fg-color); }
+.md-typeset .al-phases .e strong { color: var(--al-red); }
+
+/* Mini calendario */
+.md-typeset .al-cal { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 1.2em 1.4em; margin: 1em 0; }
+.md-typeset .al-cal .mt { font-size: .62rem; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; margin-bottom: .4em; }
+.md-typeset .al-cal .g { display: grid; grid-template-columns: repeat(7, 1fr); gap: 2px; }
+.md-typeset .al-cal .g span { font-size: .55rem; text-align: center; line-height: 1.9; border-radius: 3px; color: var(--md-default-fg-color--lighter); font-variant-numeric: tabular-nums; }
+.md-typeset .al-cal .g .hd { color: var(--md-default-fg-color--light); font-weight: 600; }
+.md-typeset .al-cal .g .c { background: var(--md-default-fg-color); color: var(--md-default-bg-color); }
+.md-typeset .al-cal .g .e { background: var(--al-red); color: #fff; }
+.md-typeset .al-cal .g .h { background: var(--md-default-fg-color--lightest); color: var(--md-default-fg-color--light); }
+.md-typeset .al-cal .g .f { opacity: .45; }
+.md-typeset .al-legend { display: flex; flex-wrap: wrap; gap: 1.5em; font-size: .65rem; color: var(--md-default-fg-color--light); margin-bottom: 1.5em; }
+.md-typeset .al-legend i { display: inline-block; width: .8em; height: .8em; border-radius: 2px; margin-right: .4em; vertical-align: -1px; }
+.md-typeset .al-legend i.c { background: var(--md-default-fg-color); }
+.md-typeset .al-legend i.e { background: var(--al-red); }
+.md-typeset .al-legend i.h { background: var(--md-default-fg-color--lightest); }
+
+/* Horario con celdas combinadas */
+.md-typeset .al-horario-wrap { overflow-x: auto; }
+.md-typeset table.al-horario { display: table; width: 100%; table-layout: fixed; border-collapse: collapse; font-size: .75rem; border: none; }
+.md-typeset table.al-horario th { font-weight: 600; font-size: .65rem; text-transform: uppercase; letter-spacing: .06em; color: var(--md-default-fg-color--light); background: none; border-bottom: 1px solid var(--md-default-fg-color--lightest); text-align: center; padding: .6em; }
+.md-typeset table.al-horario th:first-child { width: 8.5em; }
+.md-typeset table.al-horario td { height: 3em; padding: 0; text-align: center; vertical-align: middle; border-bottom: 1px solid var(--md-default-fg-color--lightest); }
+.md-typeset table.al-horario td.tr { color: var(--md-default-fg-color--light); font-size: .68rem; text-align: left; font-variant-numeric: tabular-nums; }
+.md-typeset table.al-horario td.s { border-left: 1px solid var(--md-default-fg-color--lightest); font-weight: 700; }
+.md-typeset table.al-horario td.s small { display: block; font-weight: 400; font-size: .75em; color: var(--md-default-fg-color--light); }
+.md-typeset .al-note { font-size: .7rem; color: var(--md-default-fg-color--light); }
