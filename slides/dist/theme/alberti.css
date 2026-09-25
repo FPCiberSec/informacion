@@ -503,7 +503,8 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
 .reveal h1,
 .reveal h2,
 .reveal h3 {
-  display: inline-block;
+  display: block;
+  width: fit-content;
   background: var(--al-gradient);
   -webkit-background-clip: text;
   background-clip: text;
@@ -511,3 +512,4 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
   color: transparent;
 }
 .reveal .progress span { background: var(--al-gradient); }
+.reveal .center h1, .reveal .center h2, .reveal .center h3, .reveal section.center h2 { margin-left: auto; margin-right: auto; }

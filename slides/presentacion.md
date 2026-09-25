@@ -263,11 +263,16 @@ Note: Clases de lunes a jueves, 6 h/día. Festivos: 12 oct, 2 nov, 7 y 8 dic, 1 
 
 ## Proyectos intermodulares
 
+<div class="cols">
+<div>
 <ul class="plain">
 <li>Todo tiene sentido en conjunto</li>
 <li>Acercamiento a la realidad</li>
 <li>Preparación para la etapa en la empresa</li>
 </ul>
+</div>
+<div><img src="assets/puzzle.jpg"></div>
+</div>
 
 ---
 
